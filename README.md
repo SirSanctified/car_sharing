@@ -48,6 +48,7 @@ The customer list is empty!
 
 Enter the customer name:
 > First customer
+
 The customer was added!
 
 1. Log in as a manager
@@ -58,6 +59,7 @@ The customer was added!
 
 Enter the customer name:
 > Second customer
+
 The customer was added!
 
 1. Log in as a manager
