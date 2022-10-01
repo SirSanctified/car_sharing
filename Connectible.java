@@ -13,11 +13,8 @@ public interface Connectible {
     List<Customer> getCustomers() throws SQLException;
     void createCompany(String query) throws SQLException;
     void addCar(String carName, int companyId) throws SQLException;
-
     void createCustomer(String name) throws SQLException;
-
     void closeConnection() throws SQLException;
-
     void rentCar(int carId, int customerId) throws SQLException;
     void returnRentedCar(int customerId) throws SQLException;
     List<String> showMyRentedCar(int customerId) throws SQLException;
